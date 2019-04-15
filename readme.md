@@ -34,7 +34,7 @@ __Reccomended to use the loaded model from here on instead of rerunning XGBoost_
 ### Collaborative Filtering
 1. Load data and run the merging similar to predictive modelling
 2. Split train validation test, and convert each into model required by surprise package
-   * Package used is [surprise](https://surprise.readthedocs.io/en/stable/index.html)
+   * Package used is [surprise](http://surpriselib.com/)
 3. The function diagnose_reccomendation is used to check accuracy and F1-score of each model trained.<br>
 make sure to load it before proceeding.
 4. Each of the modelling steps can be ran without any issues.
