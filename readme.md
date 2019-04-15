@@ -6,6 +6,12 @@ Group Members:
  * Zhai Chen (A0156995H)
  * Tang Wen Qian (A0161814J)
 
+## to-do notice
+* add code instructions
+* store genome_score download somewhere else, as it is too large for GH
+* random seed for community generation
+* missing plots in EDA
+
 # Insert code instructions here
 ### EDA
 
