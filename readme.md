@@ -9,8 +9,11 @@
 
 # Instructions to run the various python notebooks
 ### <ins>1. EDA</ins>
+
+Folder of all datasets (here)[https://drive.google.com/drive/folders/1b3UQFcVFEiU9Odrdg_GkU7p03Tv5DHHB?usp=sharing]
+
 __Setup__
-1. pip install the following packages: 
+1. pip install the following packages (if not yet downloaded, from requirements.txt): 
 	1. afinn
 	2. textblob
 	3. colour (for bar chart's bar colour)
@@ -42,7 +45,7 @@ __Exploratory Data Analysis on the population__
 
 ### <ins>2. Community Detection</ins>
 __Setup__
-1. pip install the following packages: 
+1. pip install the following packages (if not yet downloaded, from requirements.txt): 
 	1. afinn
 	2. textblob
 	3. colour (for bar chart's bar colour)
@@ -69,7 +72,7 @@ __Community Formation__
 
 ### <ins>3. Communities Study</ins>
 __Setup__
-1. pip install the following packages: 
+1. pip install the following packages (if not yet downloaded, from requirements.txt): 
 	1. afinn
 	2. textblob
 	3. colour (for bar chart's bar colour)
