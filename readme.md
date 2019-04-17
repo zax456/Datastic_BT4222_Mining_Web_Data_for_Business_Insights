@@ -30,7 +30,18 @@ __Movie Metadata Cleaning__
 	2. genome-scores.csv
 	3. genome_tags.csv
 2. Delete rubbish column 'Unnamed: 0' after reading in movie_data_merged_v1.csv 
-3. 
+3. Merge both genome tags and genome scores dataframe and keep tags that have a relevance score of 70% and above
+4. Merge master_movies_df with the filtered tags from step 3
+4. Run Text Cleaning on genres, Casts and Director columns in master_movies_df 
+5. Join the first names and last names of both Casts and Director respectively using join_name function
+
+__Datasets Overview & Merging__
+1. Run this section of codes to get basic statistics of the Movie, User and Rating dataframes
+2. This section is needed to initialise our master_data dataframe which is used for analysis later on 
+
+__Exploratory Data Analysis on the population__ 
+1. This section consist of many sub sections that helps to find insights to our problem statement
+2. Running these sub sections is straight forward and the user should not meet into problems unless the required variables are not initialised 
 
 ### <ins>2. Community Detection</ins>
 __Setup__
