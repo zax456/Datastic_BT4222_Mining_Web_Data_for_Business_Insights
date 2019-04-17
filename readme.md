@@ -1,16 +1,11 @@
-# BT4222 Datastic Group Project
-<br>This project is meant for the module BT4222 Mining Web Data for Business Insights of National University of Singapore. Movie data provided by [MovieLens](https://grouplens.org/datasets/movielens/) is used. The aim of this project is to discover the characteristics of certain category of audience and create a movie recommender model.<br>
+# BT4222 Group Project
+<br>This project is started by the team Datastic, for BT4222 Mining Web Data for Business Insights, a module belonging to the National University of Singapore. Movie data provided by [MovieLens](https://grouplens.org/datasets/movielens/) is used. The aim of this project is to discover the characteristics of certain category of audience and create a movie recommender model to recommend movies based on the preferences of the audience.<br>
 
-## Movie recommender System
-Group Members: 
+# Group Members: 
  * Ang Kian Hwee (A0150445M)
  * Lee Ying Yang (A0170208N)
  * Zhai Chen (A0156995H)
  * Tang Wen Qian (A0161814J)
-
-## to-do notice
-* random seed for community generation
-* missing plots in EDA
 
 # Instructions to run the various python notebooks
 ### <ins>1. EDA</ins>
