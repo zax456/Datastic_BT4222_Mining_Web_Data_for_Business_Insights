@@ -8,7 +8,6 @@ Group Members:
 
 ## to-do notice
 * add code instructions
-* store genome_score download somewhere else, as it is too large for GH
 * random seed for community generation
 * missing plots in EDA
 
@@ -17,6 +16,7 @@ Group Members:
 
 
 ### Community Detection
+__Processing Data__
 
 
 ### Predictive_Modelling
