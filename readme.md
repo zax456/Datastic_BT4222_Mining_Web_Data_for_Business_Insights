@@ -8,9 +8,11 @@
  * Tang Wen Qian (A0161814J)
 
 # Instructions to run the various python notebooks
-### <ins>1. EDA</ins>
-
 Folder of all datasets [here](https://drive.google.com/drive/folders/1b3UQFcVFEiU9Odrdg_GkU7p03Tv5DHHB?usp=sharing)
+
+
+
+### <ins>1. EDA</ins>
 
 __Setup__
 1. pip install the following packages (if not yet downloaded, from requirements.txt): 
