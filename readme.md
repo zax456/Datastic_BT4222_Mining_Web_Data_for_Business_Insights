@@ -94,7 +94,7 @@ __Community Analysis__
 	2. Sentiment analysis on Genome Tags
 	3. Tags Study
 	4. Movie Metadata Study (Casts & Director)
-2. Each Study section consist of charts and tables and comments on the analysis of the results
+2. Each Study section should run without problems provided all pre-defined functions and variables have been initialised 
 
 ### <ins>4. Predictive_Modelling</ins>
 __Processing Data__
