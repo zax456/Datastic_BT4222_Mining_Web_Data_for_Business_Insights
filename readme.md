@@ -7,7 +7,6 @@ Group Members:
  * Tang Wen Qian (A0161814J)
 
 ## to-do notice
-* add code instructions
 * random seed for community generation
 * missing plots in EDA
 
@@ -25,7 +24,7 @@ __Setup__
 4. Set file paths for users.csv and user_ratings.csv
 
 __Movie Metadata Cleaning__
-This step was ran before hand. __Do not run__ this section as genome-scores.csv is not uploaded due to file size limit on GitHub.
+<br>This step was ran before hand. __Do not run__ this section as genome-scores.csv is not uploaded due to file size limit on GitHub.
 1. Set file paths for the following files: 
 	1. movie_data_merged_v1.csv
 	2. genome-scores.csv
