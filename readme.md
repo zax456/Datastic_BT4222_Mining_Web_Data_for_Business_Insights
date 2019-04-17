@@ -16,16 +16,29 @@ Group Members:
 
 
 ### Community Detection
-__Processing Data__
+__Setup__
 1. pip install the following packages: 
 	1. afinn
 	2. textblob
 	3. colour (for bar chart's bar colour)
 	4. prettytable
-	5. nltk
-2. Download all nltk corpus using nltk.download("popular")
+	5. community
+	6. networkx
+2. Ignore mounting of Google Drive step and changing of path
 3. Set file paths for users.csv, movie_data_merged_v2.csv and user_ratings.csv
-4. Run the data merging, rating bucketization, and train validation test split.
+4. Run Read in Datasets block of code 
+
+__Network Building__
+1. Run code blocks 1 to 4 to add the nodes and edges to network 
+2. Run ForceAtlas2 algorithm. This might take quite a long to do. 
+3. Run the remaining code blocks under Build Network section
+4. Run code blocks under Centralities Measures to get various statistics about the network
+
+__Community Formation__
+1. First, split the network into clusters using community package (.best_partition) under Community Detection section 
+2. Draw out the network with the communities formed using colour coding 
+3. Save the community list of users into a json file for usage in Community Study notebook
+
 
 ### Community Study
 __Processing Data__
