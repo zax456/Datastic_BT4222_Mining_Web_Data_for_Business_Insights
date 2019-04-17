@@ -24,7 +24,7 @@ __Setup__
 4. Set file paths for users.csv and user_ratings.csv
 
 __Movie Metadata Cleaning__
-<br>__This step was ran before hand. Do not run this section as genome-scores.csv is not uploaded due to file size limit on GitHub.__
+<br><br>__This step was ran before hand. Do not run this section as genome-scores.csv is not uploaded due to file size limit on GitHub.__
 1. Set file paths for the following files: 
 	1. movie_data_merged_v1.csv
 	2. genome-scores.csv
@@ -108,7 +108,7 @@ __Community Analysis__
 2. Each Study section should run without problems provided all pre-defined functions and variables have been initialised 
 
 ### <ins>4. Predictive_Modelling</ins>
-__Processing Data__
+__Setup__
 1. Set file paths for users.dat, movie_data_merged_v2.csv and training_ratings_for_kaggle_comp.csv
 2. Run the data merging, rating bucketization, and train validation test split.
 3. Run each of the data preprocessing steps that will also fit each of the data transformers
