@@ -11,7 +11,7 @@ Group Members:
 * missing plots in EDA
 
 # Instructions to run the various python notebooks
-### EDA
+<u>EDA</u>
 __Setup__
 1. pip install the following packages: 
 	1. afinn
