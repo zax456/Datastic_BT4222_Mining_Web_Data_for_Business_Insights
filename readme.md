@@ -32,8 +32,7 @@ __Movie Metadata Cleaning__
 2. Delete rubbish column 'Unnamed: 0' after reading in movie_data_merged_v1.csv 
 3. 
 
-
-### Community Detection
+### <ins>Community Detection</ins>
 __Setup__
 1. pip install the following packages: 
 	1. afinn
@@ -60,7 +59,7 @@ __Community Formation__
 2. Draw out the network with the communities formed using colour coding 
 3. Save the community list of users into a json file for usage in Community Study notebook
 
-### Community Study
+### <ins>Community Study</ins>
 __Setup__
 1. pip install the following packages: 
 	1. afinn
@@ -78,16 +77,16 @@ __Setup__
 5. Run Read in Datasets block of code 
 6. Run all pre-defined functions and variables to be used for analysis later on
 7. A few key functions/variables to take note of:
-	1. plot_ratings_genres_dist - plot the distribution of genres for each rating score 
-	2. plot_user_distribution - plot the distribution of predictor variable 
-	2. plot_genre_dist_over_var - plot distribution of genres over each category of a predictor variable 
-	2. plot_rating_dist_over_var - plot distribution of ratings over each category of a predictor variable
-	2. com_movie_var - returns a list of genres which the audience has watched
-	3. get_user_rating - returns dataframe consisting of user-movieIds who have given a particular rating score 
-	4. com_giant_tags_5stars/com_giant_tags_1stars - lists of 4 strings consisting of concatenated genome tags for movies with either rating-5 or rating-1
-	5. get_keywords_community2_tags - prints the top 10 tags which has the highest TF-IDF values in that community. These are tags that defines a particular movie given a particular rating.
-	6. get_tfidf_string - returns a dataframe of words with their TF-IDF values. Used to plot word clouds. 
-	7. comX_users_movies - dataframe consisting of user-movieIds belonging in community X, where X is 1 to 4
+	1. __plot_ratings_genres_dist__ - plot the distribution of genres for each rating score 
+	2. __plot_user_distribution__ - plot the distribution of predictor variable 
+	2. __plot_genre_dist_over_var__ - plot distribution of genres over each category of a predictor variable 
+	2. __plot_rating_dist_over_var__ - plot distribution of ratings over each category of a predictor variable
+	2. __com_movie_var__ - returns a list of genres which the audience has watched
+	3. __get_user_rating__ - returns dataframe consisting of user-movieIds who have given a particular rating score 
+	4. __com_giant_tags_5stars/com_giant_tags_1stars__ - lists of 4 strings consisting of concatenated genome tags for movies with either rating-5 or rating-1
+	5. __get_keywords_community2_tags__ - prints the top 10 tags which has the highest TF-IDF values in that community. These are tags that defines a particular movie given a particular rating.
+	6. __get_tfidf_string__ - returns a dataframe of words with their TF-IDF values. Used to plot word clouds. 
+	7. __comX_users_movies__ - dataframe consisting of user-movieIds belonging in community X, where X is 1 to 4
 
 __Community Analysis__
 1. Run the codes for the different types of study:
@@ -97,7 +96,7 @@ __Community Analysis__
 	4. Movie Metadata Study (Casts & Director)
 2. Each Study section consist of charts and tables and comments on the analysis of the results
 
-### Predictive_Modelling
+### <ins>Predictive_Modelling</ins>
 __Processing Data__
 1. Set file paths for users.dat, movie_data_merged_v2.csv and training_ratings_for_kaggle_comp.csv
 2. Run the data merging, rating bucketization, and train validation test split.
@@ -115,7 +114,7 @@ __Reccomended to use the loaded model from here on instead of rerunning XGBoost_
 4. All diagnosing steps should then be possible provided data has been already processed, and model is loaded.<br>
 5. Gridsearch logs are at the bottom of notebook, due to it's length. Re-running not recommended.
 
-### Collaborative Filtering
+### <ins>Collaborative Filtering</ins>
 1. Load data and run the merging similar to predictive modelling
 2. Split train validation test, and convert each into model required by surprise package
    * Package used is [surprise](http://surpriselib.com/)
