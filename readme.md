@@ -8,7 +8,8 @@
  * Tang Wen Qian (A0161814J)
 
 # Instructions to run the various python notebooks
-Folder of all datasets [here](https://drive.google.com/drive/folders/1b3UQFcVFEiU9Odrdg_GkU7p03Tv5DHHB?usp=sharing)
+Google drive of all datasets [here](https://drive.google.com/drive/folders/1b3UQFcVFEiU9Odrdg_GkU7p03Tv5DHHB?usp=sharing)<br>
+Note that not all datasets uploaded here on github due to size limitations
 
 
 
