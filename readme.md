@@ -25,7 +25,10 @@ __Setup__
 	5. community
 	6. networkx
 2. Ignore mounting of Google Drive step and changing of path
-3. Set file paths for users.csv, movie_data_merged_v2.csv and user_ratings.csv
+3. Set file paths for the following files: 
+	1. users.csv
+	2. movie_data_merged_v2.csv 
+	3. user_ratings.csv
 4. Run Read in Datasets block of code 
 
 __Network Building__
@@ -39,10 +42,42 @@ __Community Formation__
 2. Draw out the network with the communities formed using colour coding 
 3. Save the community list of users into a json file for usage in Community Study notebook
 
-
 ### Community Study
-__Processing Data__
-1. Set file paths for users.csv, movie_data_merged_v2.csv and user_ratings.csv
+__Setup__
+1. pip install the following packages: 
+	1. afinn
+	2. textblob
+	3. colour (for bar chart's bar colour)
+	4. prettytable
+	5. nltk
+2. Download all nltk corpus using nltk.download("popular")
+3. Ignore mounting of Google Drive step and changing of path
+4. Set file paths for the following files:
+	1. users.csv 
+	2. movie_data_merged_v2.csv
+	3. user_ratings.csv
+	4. community_list.json
+5. Run Read in Datasets block of code 
+6. Run all pre-defined functions and variables to be used for analysis later on
+7. A few key functions/variables to take note of:
+	1. plot_ratings_genres_dist - plot the distribution of genres for each rating score 
+	2. plot_user_distribution - plot the distribution of predictor variable 
+	2. plot_genre_dist_over_var - plot distribution of genres over each category of a predictor variable 
+	2. plot_rating_dist_over_var - plot distribution of ratings over each category of a predictor variable
+	2. com_movie_var - returns a list of genres which the audience has watched
+	3. get_user_rating - returns dataframe consisting of user-movieIds who have given a particular rating score 
+	4. com_giant_tags_5stars/com_giant_tags_1stars - lists of 4 strings consisting of concatenated genome tags for movies with either rating-5 or rating-1
+	5. get_keywords_community2_tags - prints the top 10 tags which has the highest TF-IDF values in that community. These are tags that defines a particular movie given a particular rating.
+	6. get_tfidf_string - returns a dataframe of words with their TF-IDF values. Used to plot word clouds. 
+	7. comX_users_movies - dataframe consisting of user-movieIds belonging in community X, where X is 1 to 4
+
+__Community Analysis__
+1. Run the codes for the different types of study:
+	1. Distribution Study 
+	2. Sentiment analysis on Genome Tags
+	3. Tags Study
+	4. Movie Metadata Study (Casts & Director)
+2. Each Study section consist of charts and tables and comments on the analysis of the results
 
 ### Predictive_Modelling
 __Processing Data__
