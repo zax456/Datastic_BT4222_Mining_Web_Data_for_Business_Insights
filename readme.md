@@ -11,8 +11,27 @@ Group Members:
 * random seed for community generation
 * missing plots in EDA
 
-# Insert code instructions here
+# Instructions to run the various python notebooks
 ### EDA
+__Setup__
+1. pip install the following packages: 
+	1. afinn
+	2. textblob
+	3. colour (for bar chart's bar colour)
+	4. prettytable
+	5. nltk
+2. Download all nltk corpus using nltk.download("popular")
+3. Ignore mounting of Google Drive step and changing of path
+4. Set file paths for users.csv and user_ratings.csv
+
+__Movie Metadata Cleaning__
+This step was ran before hand. __Do not run__ this section as genome-scores.csv is not uploaded due to file size limit on GitHub.
+1. Set file paths for the following files: 
+	1. movie_data_merged_v1.csv
+	2. genome-scores.csv
+	3. genome_tags.csv
+2. Delete rubbish column 'Unnamed: 0' after reading in movie_data_merged_v1.csv 
+3. 
 
 
 ### Community Detection
