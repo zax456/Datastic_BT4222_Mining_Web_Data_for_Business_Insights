@@ -111,7 +111,7 @@ __Community Analysis__
 
 ### <ins>4. Predictive_Modelling</ins>
 __Setup__
-1. Set file paths for users.dat, movie_data_merged_v2.csv and training_ratings_for_kaggle_comp.csv
+1. Set file paths for __users.csv, movie_data_merged_v2.csv and user_ratings.csv__
 2. Run the data merging, rating bucketization, and train validation test split.
 3. Run each of the data preprocessing steps that will also fit each of the data transformers
 <br>and transforms training data
