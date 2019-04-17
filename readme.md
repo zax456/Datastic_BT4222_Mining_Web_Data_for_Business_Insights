@@ -1,4 +1,6 @@
 # BT4222 Datastic Group Project
+<br>This project is meant for the module BT4222 Mining Web Data for Business Insights of National University of Singapore. The aim of this project is to discover the characteristics of certain category of audience and create a movie recommender model.<br>
+
 ## Movie recommender System
 Group Members: 
  * Ang Kian Hwee (A0150445M)
