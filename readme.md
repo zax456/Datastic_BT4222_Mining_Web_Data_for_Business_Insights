@@ -17,7 +17,19 @@ Group Members:
 
 ### Community Detection
 __Processing Data__
+1. pip install the following packages: 
+	1. afinn
+	2. textblob
+	3. colour (for bar chart's bar colour)
+	4. prettytable
+	5. nltk
+2. Download all nltk corpus using nltk.download("popular")
+3. Set file paths for users.csv, movie_data_merged_v2.csv and user_ratings.csv
+4. Run the data merging, rating bucketization, and train validation test split.
 
+### Community Study
+__Processing Data__
+1. Set file paths for users.csv, movie_data_merged_v2.csv and user_ratings.csv
 
 ### Predictive_Modelling
 __Processing Data__
