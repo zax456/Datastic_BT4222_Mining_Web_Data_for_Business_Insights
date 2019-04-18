@@ -5,7 +5,7 @@
  * Ang Kian Hwee (A0150445M)
  * Lee Ying Yang (A0170208N)
  * Zhai Chen (A0156995H)
- * Tang Wen Qian (A0161814J)
+ * Tang Wenqian (A0161814J)
 
 # Instructions to run the various python notebooks
 Google drive of all datasets [here](https://drive.google.com/drive/folders/1b3UQFcVFEiU9Odrdg_GkU7p03Tv5DHHB?usp=sharing)<br>
